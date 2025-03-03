@@ -1,0 +1,121 @@
+/* ✅ iOS 8 Compatible CSS */
+
+/* ✅ Fix for @font-face (No Variable Fonts) */
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    font-weight: 400;
+    src: url('/assets/BricolageGrotesque-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    font-weight: 700;
+    src: url('/assets/BricolageGrotesque-Bold.ttf') format('truetype');
+}
+
+/* ✅ Fix for Grid: Use Flexbox Instead */
+:root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: Arial, Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    white-space: pre-wrap;
+}
+
+/* ✅ Fix for Flexbox */
+.cpfea1d {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.c1j34mkn {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.cbb649g {
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.c1l9zozb {
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+/* ✅ Fix for Aspect Ratio */
+.cven7yl {
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+}
+
+/* ✅ Fix for Object Fit */
+.cghbf65 {
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ✅ Fix for row-gap & column-gap */
+.ch0smcm { margin-bottom: 2rem; } /* row-gap */
+.c1rj9zhw { margin-right: 2rem; } /* column-gap */
+.cyah3ou { margin-right: 1rem; } /* small column gap */
+.cmfw54z { margin-bottom: 1rem; } /* small row gap */
+
+/* ✅ Other Fixes */
+.c1xeui1q { background-color: #bee3f8; }
+.czmyur { color: #ebf8ff; }
+.c7eym0q { font-family: Bricolage Grotesque, sans-serif; }
+.c1ue03rr { padding: 2rem; }
+.cbxtyh4 { max-width: 720px; }
+.cxnwabk { margin-left: auto; }
+.ct3llrj { margin-right: auto; }
+.cg5srl9 { background-color: #000; }
+.c13aupyd { background-color: #fff; }
+.c15twiea { color: #000; }
+
+/* ✅ Fix for Transitions */
+.catecj8 {
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
+
+/* ✅ Fix for Border Radius */
+.c1hhqkfx, .c1ug851f, .c1eoaov8, .cinhzvn {
+    border-radius: 9999px;
+}
+
+/* ✅ Fix for Padding */
+.c11jcwdk { padding-top: 0.75rem; }
+.c1c3pl87 { padding-bottom: 0.75rem; }
+.ca2i7zn { padding-left: 1rem; }
+.c1eh6794 { padding-right: 1rem; }
+
+/* ✅ Fix for Links */
+.c1qqq93e {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* ✅ Fix for Positioning */
+.cro90au { position: fixed; }
+.chzrggh { top: 0; }
+.c7cc2bz { bottom: 0; }
+.cnxa9gv { left: 0; }
+.cix9mad { right: 0; }
+
+/* ✅ Fix for Centering */
+.c1iapu3e { text-align: center; }
+.cm9705b { font-size: 1.5rem; }
+.c1fpwhyl { margin-top: 0; }
+.c131ga1t { margin-bottom: 0; }
+
+/* ✅ Fix for Mobile View */
+@media all and (max-width: 479px) {
+    .c1ccx8za { padding-left: 1em; }
+    .c1v31wlf { padding-right: 1em; }
+    .c1u38zco { text-align: center; }
+}
