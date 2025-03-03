@@ -18,7 +18,7 @@
             height: 100vh;
         }
         .container {
-            max-width: 400px;
+            max-width: 500px; /* Increased the width of the card */
             margin: 0 auto;
             background: black;
             color: white;
@@ -50,11 +50,11 @@
         /* Style for the "Home" link */
         .home-link {
             display: block;
-            font-size: 32px;
+            font-size: 24px;
             color: white;
             text-decoration: none;
             font-weight: bold;
-            margin-bottom: 20px;
+            margin: 10px 0;
         }
         .home-link:hover {
             text-decoration: underline;
@@ -62,16 +62,21 @@
     </style>
 </head>
 <body>
-    <!-- "Home" link -->
-    <a href="https://049981.xyz" class="home-link" target="_blank">Home</a>
-
     <div class="container">
         <div class="profile-info">
             <h2>@techspice0</h2>
             <p>Tech, Spice, and Everything nice!</p>
-            <p>Random person interested in weather & tech!</p>
         </div>
+        
+        <!-- TikTok Button -->
         <a href="https://www.tiktok.com/@techspice0" class="btn" target="_blank">TikTok</a>
+        
+        <!-- "Home" clickable link between buttons and text -->
+        <a href="https://049981.xyz" class="home-link" target="_blank">Home</a>
+        
+        <p>Random person interested in weather & tech!</p>
+
+        <!-- Gitea and Cydia/Sileo Repo buttons -->
         <a href="https://gitea.com/techspice0" class="btn" target="_blank">Gitea</a>
         <a href="https://repo.049981.xyz" class="btn" target="_blank">My Cydia/Sileo Repo</a>
     </div>
